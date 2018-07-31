@@ -41,7 +41,7 @@ def turn(board)
   index = input_to_index(input)
 
 until valid_move?(board,index)
-  puts "Please enter 1-9:"
+  puts "#{index} is not a valid move, please input another number"
 end
 
 
